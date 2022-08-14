@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'CursedFont';
+    src: url('CursedFont.ttf')
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#home-score, #guest-score {
+    
+    color: red;
+    background: black;
+    border-radius: 6px; 
+    font-size: 80px;
+    width: 120px;
+    height: auto;
+    margin: 20px;
+}
+
+button {
+    border-radius: 4px;
+    background: #1B244A;
+    color: #9AABD8; 
+    border: 1px solid #9AABD8;
+    font-family: CursedFont;
+    padding: 5px;
+}

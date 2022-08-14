@@ -1,0 +1,2 @@
+# Scoreboard
+ Simple scoreboard website
